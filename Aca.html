@@ -4,49 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HTML CV</title>
+    <link rel="stylesheet" href="formstyle.css">
+    
 </head>
 <body>
-    <header>
+    <section class="sec border">  
+    <header >
         <img src = "Profile.avif" alt = "A Profile Pic" width = 170>
-     
+      
         <h1>Opara David</h1>
         <ol>
-            <li> Nigeria</li>
-            <li>davidopara008@gmail.com</li>
-            <li>+2348036227022</li>
+            <li class = "ab"> Nigeria</li>
+            <li class = "ba">davidopara008@gmail.com</li>
+            <li class = "cac">+2348036227022</li>
+            <li><a href="#hobbies">Hobby</a></li>
         </ol>
+    <hr> 
+     </section>
     </header>
     <main>
-       <section>
+       <section class="sec border">
         <h2>Professional Summary</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas maiores consectetur officiis consequatur quo ea odit, at saepe, accusantium officia cum modi voluptatem magni nesciunt necessitatibus optio assumenda similique magnam.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas maiores consectetur officiis <a href="#">consequatur quo ea</a> odit, at saepe, accusantium officia <a href="#">cum modi voluptatem magni nesciunt</a> necessitatibus optio assumenda similique magnam.</p>
 
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, vero nihil, perferendis earum quaerat quod laboriosam in aut doloremque amet rem eaque ipsam nesciunt nostrum odio dignissimos, reiciendis laborum est!</p>
-     </section>
-
-     <section>
+           <p>Lorem ipsum dolor sit, amet consectetur <a href="#">adipisicing elit</a>. Fugiat, vero nihil, perferendis earum quaerat quod laboriosam in aut doloremque amet rem eaque ipsam nesciunt nostrum odio dignissimos, reiciendis laborum est!</p>
+     <hr>
+      </section>
+     <section class="sec border">
         <h2>Employment History</h2>
         <div>
              <h3> Full Stack Developer, Cloud Architect, ML Engineer</h3>
          </div>
         <small>April 2025</small>
-        <ul>
             <ol>
                 <li>Design, bild or maintain sites usiing Laravel, Bootstrap, Vue, React & Word Prees
                 </li>
                 <li>Create Scripting Language tools</li>
-
-
             </ol>
-            l
-        </ul>
-
-
+        <hr>  
+    </section> 
+    <section class="sec border">
+        <h2 id="hobbies">Hobbies</h2>
+        <ol>
+            <li>Listening to Music</li>
+        </ol>
+        <br>
         <audio controls>
            <source src = "JN.mp3" type = "audio/mp3">
+           <P>Sorry about that!</P>
         </audio>
+        <hr>
+    </section>
+        
+       <video controls poster="Profile.avif" width = "200" id="video">
+               <source src = "TS.mp4" type = "video/mp4">
 
-     </section>
+        </video>
+
+        <a href="#"
+       style="padding:10px 15px;background:#333;color:#fff;text-decoration:none;border-radius:5px;">
+        Click Me
+        </a>
+
+    <div id = "Elder"> 
+        <p>Child</p>
+        <p>Child</p>
+        <div> 
+            <p>cousin</p>
+        </div>
+    </div>
+
+     <p>Family Friend</p>
+
+
+   
    
    </main> 
 

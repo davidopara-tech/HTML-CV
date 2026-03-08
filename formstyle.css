@@ -1,0 +1,96 @@
+/* Universal Selector*/
+* {
+    color: brown;
+    box-sizing: border-box;
+}
+
+/* Attribute Selector*/
+p {
+    font-size: 20px;
+}
+
+/* Grouping Selector*/
+h1, h2, h3, h4, h5, h6{
+    color: rgb(5, 5, 250);
+}
+
+/* Class Selectors*/
+.sec {
+    background-color: beige;
+    padding: 20px;
+}
+
+.border{
+    border: 3px solid rosybrown;
+}
+
+/*Targeting attribute*/
+a {
+     color: forestgreen ;
+};
+
+
+/*Targeting attribute value*/
+[href = "#"] {
+    font-size: 23px;
+}
+
+
+/*Type + Attribute  (Substring) Selector*/
+/*Targeting a list with a class that starts with a*/
+li[class ^= "a"] {
+    background-color: yellowgreen;
+}
+
+/*Type + Attribute  (Substring) Selector*/
+/*Targeting a list with a class that ends with a*/
+li[class $= "a" ] {
+    background-color: rgb(75, 4, 141);
+}
+
+/*Type + Attribute  (Substring) Selector*/
+/*Targeting a list with a class that has  a*/
+li[class *= "a"] {
+    background-color: yellowgreen; 
+}
+
+/*Psuedo-class*/
+p::first-letter {
+    font-size: 42px;
+}
+
+a :hover {
+    font-size: 3px;
+}
+
+/*
+     = descendant
+   > = child
+   ~ = general sibling
+   + = adjacent sibling
+*/  
+
+#container {
+    border: 2px solid;
+}
+
+#container {
+    
+}
+
+h1{
+    text-align : center;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+
+.Head{
+    
+    border: 2px solid rgb(42, 42, 235);
+    margin: 20px 40px;
+    background-color: azure;
+    border-radius: 1rem;
+    box-shadow: 0 1.5em 3em rgb(43, 42, 42);
+}

@@ -1,0 +1,16 @@
+.first_column{
+    display: flex;
+}
+
+
+.Sec{
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+}
+
+Head{
+    border: 2px solid rgb(42, 42, 235);
+}
+
+
